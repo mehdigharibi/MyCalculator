@@ -7,5 +7,5 @@ Future<void> main() async {
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
-  runApp(Calc());
+  runApp(const Calc());
 }
